@@ -46,28 +46,30 @@
     update 8080 to access Mysql Database with GUI interface. <br>
 
 - Now you can access the frontend web page on your browser as shown in below screenshots. <br>
-    ##### http://13.59.222.100:8000/ <br>
+    ##### http://13.59.222.100:8000/ <br>        
+    ##### Here we are using public-ip:8000 <br>
 
-      ![form-op](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/9929e7f1-f875-4bda-b986-8dc64490da1a)
+  ![form-op](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/9929e7f1-f875-4bda-b986-8dc64490da1a)
 
 
-      ![form-op-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/531a8379-d47e-4a64-b466-38044e92dd32) <br>
+  ![form-op-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/531a8379-d47e-4a64-b466-38044e92dd32)
 
-      ![form-op-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/aac91e7b-5894-4bc5-aa87-871157652c37) <br>
+  ![form-op-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/aac91e7b-5894-4bc5-aa87-871157652c37)
 
 
 - If you want to check the entry after submitting the form, You can use Mysql phpmyadmin login page as shown in below screenshots. <br>
     ##### http://13.59.222.100:8080/ <br>
+    ##### Here we are using public-ip:8080 <br>
     ##### use user: admin password: admin <br>
-      ![form-phpmyadmin-1](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/d4ccf713-c536-4fd8-8849-6af867cc4890) <br>
+  ![form-phpmyadmin-1](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/d4ccf713-c536-4fd8-8849-6af867cc4890) 
 
-      Now add you Database user credential which is admin - admin <br>
+- Now add you Database user credential which is admin - admin <br>
 
-      ![form-phpmyadmin-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/ff5be567-fadd-438d-aef0-f5a2314b1a0b) <br>
+  ![form-phpmyadmin-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/ff5be567-fadd-438d-aef0-f5a2314b1a0b) 
 
-      Now open registration_db databse and there click on users table to see your entry. <br>
+- Now open registration_db databse and there click on users table to see your entry. <br>
 
-      ![form-phpmyadmin-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/3a1e0a30-2aa7-4dfe-9731-d486be987bdf) <br>
+  ![form-phpmyadmin-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/3a1e0a30-2aa7-4dfe-9731-d486be987bdf) 
 
 
 
