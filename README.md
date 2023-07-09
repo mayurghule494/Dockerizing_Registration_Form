@@ -9,6 +9,7 @@
 🚀 Here We are using **Index.html and css** to create frontend.<br>
 🚀 Here We are using **Python** to create backend.<br>
 🚀 And to store the users registration details we are going to use **MySql Database** as a backend.<br>
+
 ➡️ **We are going to create :-** <br>
    - Ubuntu based **EC2 Instance**. <br>
    - 3 Docker container using **docker-compose**. <br>
@@ -18,7 +19,7 @@
 
 ## Getting Started
 
-✅ Steps
+✅ Steps :-
 - Launch EC2 Instance with Ubuntu OS.<br>
 - Connect to the instance with SSH.<br>
 - Update the packeages using below command. <br>
@@ -46,30 +47,36 @@
     update 8080 to access Mysql Database with GUI interface. <br>
 
 - Now you can access the frontend web page on your browser as shown in below screenshots. <br>
-    ##### http://13.59.222.100:8000/ <br>        
+    ##### http://18.221.178.10:8000/ <br>        
     ##### Here we are using public-ip:8000 <br>
 
-  ![form-op](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/9929e7f1-f875-4bda-b986-8dc64490da1a)
+  ![front1](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/bd8c93fb-12cf-4bfb-8722-aad9e379ec48)
 
 
-  ![form-op-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/531a8379-d47e-4a64-b466-38044e92dd32)
+  ![front2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/9c3fb419-7a60-4e9b-9987-1fe355d72b77)
 
-  ![form-op-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/aac91e7b-5894-4bc5-aa87-871157652c37)
+
+  ![front3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/5825319f-a0e1-445e-ab7d-19775b206b18)
+
 
 
 - If you want to check the entry after submitting the form, You can use Mysql phpmyadmin login page as shown in below screenshots. <br>
-    ##### http://13.59.222.100:8080/ <br>
+    ##### http://18.221.178.10:8080/ <br>
     ##### Here we are using public-ip:8080 <br>
     ##### use user: admin password: admin <br>
-  ![form-phpmyadmin-1](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/d4ccf713-c536-4fd8-8849-6af867cc4890) 
+
+  ![phpmyadmin-home-1](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/cea23432-b0e1-4f19-ba23-21e135110fb2)
+
 
 - Now add you Database user credential which is admin - admin <br>
 
-  ![form-phpmyadmin-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/ff5be567-fadd-438d-aef0-f5a2314b1a0b) 
+   ![phpmyadmin-authentication-2](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/e12301af-0071-4651-a315-7d947951b448)
+
 
 - Now open registration_db databse and there click on users table to see your entry. <br>
 
-  ![form-phpmyadmin-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/3a1e0a30-2aa7-4dfe-9731-d486be987bdf) 
+  ![phpmyadmin-verify-database-entry-3](https://github.com/mayurghule494/Dockerizing_Registration_Form/assets/54388290/3427c878-8151-44ac-9420-ebe1e1ae56de)
+
 
 
 
